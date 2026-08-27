@@ -8,11 +8,10 @@ title: "About David Florian"
 
 David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
 
-* University of Virginia
-  * BS Mathematics
-  * BS Biomedical Engineering
-* Vanderbilt University
-  * PhD Biomedical Engineering
+* Vanderbilt University - Spring 2028
+  * BS Civil Engineering
+  * Minor in Digital Fabrication
+* Boulder Highschool
 
 ## Technical Skills
 
