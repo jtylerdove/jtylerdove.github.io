@@ -1,12 +1,12 @@
 ---
 
-title: "About David Florian"
+title: "About Tyler Dove"
 
 ---
 
 ## Education
 
-David prides himself on his diverse skill set. His most prominent fields of expertise are additive manufacturing (i.e., 3D printing) and biotechnology. 
+Tyler is pursuing an undergraduate degree in Civil Engineering, with a focus on Structural Engineering, and plans to pursue an Architecture degree at a post-graduate program. His engineering background and professional experience has given him a holistic approach to design and understanding of the built environment. 
 
 * Vanderbilt University - Spring 2028
   * BS Civil Engineering
@@ -15,16 +15,13 @@ David prides himself on his diverse skill set. His most prominent fields of expe
 
 ## Technical Skills
 
-David can operate a number of different computer controlled (CNC) fabrication tools to turn 3D models into real-life parts. David has experience with the following additive manufacturing technologies:
-
-* Fused Filament Fabrication (FFF)
-* Stereolithography (SLA)
-* Selective Laser Sintering (SLS)
-* 3D Inkjet Printing
-* Bioplotting
-
-## Press 
-
-The new Digital Fabrication Minor was covered in the [Vanderbilt Hustler](https://vanderbilthustler.com/2022/11/09/digital-fabrication-minor-introduced-for-2022-23-academic-year/).
-
-<img src="/assets/img/David_Headshot_web2.jpg" alt="David Florian" style="width:200px;"/>
+* CAD Software Proficiency
+   *   Revit
+   *   AutoCAD
+   *   Civil3D
+   *   SolidWorks
+   *   Fusion 360
+   *   Sketchup
+* Adobe InDesign
+* Bluebeam
+* SLS and SLA 3D Printing
