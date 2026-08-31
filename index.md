@@ -4,7 +4,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: assets/img/Screenshot 2026-08-30 201829.png
+  overlay_image: assets/img/ChatGPT Image Aug 30, 2026, 08_29_16 PM.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
