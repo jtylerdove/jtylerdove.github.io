@@ -10,9 +10,9 @@ header:
       url: "/portfolio/"
 excerpt: "Driven by a commitment to design with innovation and sustainability, grounded by a background in structural engineering, that enhances outcomes and communities. I am excited to contribute my technical knowledge and design ideology to projects that combine functionality with curiosity."
 feature_row:
-  - image_path: assets/img/CNC-Mill-Thumbnail.jpg
+  - image_path: assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
     alt: "CNC Mill"
-    title: "Custom CNC Milling Machine"
+    title: "Harmony: a Sustainable Data Center"
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Plasma-Cutter-Banner.jpg
     alt: "placeholder image 2"
