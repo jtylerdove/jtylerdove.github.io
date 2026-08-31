@@ -1,5 +1,5 @@
 ---
-title: "Example Web Page"
+title: "Holistic Design Approach"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Driven by a commitment to design with innovation and sustainability that enhances outcomes and communities. I am excited to contribute my technical knowledge and design ideology to projects that combine functionality with curiosity."
+excerpt: "Driven by a commitment to design with innovation and sustainability, grounded by a background in structural engineering, that enhances outcomes and communities. I am excited to contribute my technical knowledge and design ideology to projects that combine functionality with curiosity."
 feature_row:
   - image_path: assets/img/CNC-Mill-Thumbnail.jpg
     alt: "CNC Mill"
