@@ -12,13 +12,14 @@ excerpt: "Driven by a commitment to design with innovation and sustainability, g
 feature_row:
   - image_path: assets/img/Render_1_1508x1043.png
     alt: "Harmony: Data Center"
-    title: "Harmony: a Sustainable Data Center"
+    title: "Harmony: Data Center"
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Screenshot 2026-08-31 225315.png
     alt: "Medical Syringe Pump"
     title: "Medical Syringe Pump"
     excerpt: "Automated syringe pump capable of dispensing liquid from one micromilimeter to ten milimeters a minute"
   - image_path: assets/img/Render_2_1508x1043.png
+    alt: "Susan Gray Playground"
     title: "Susan Gray Playground"
     excerpt: "An accesible castle design built for all students "
 ---
