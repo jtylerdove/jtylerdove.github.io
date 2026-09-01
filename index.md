@@ -14,7 +14,7 @@ feature_row:
     alt: "CNC Mill"
     title: "Harmony: a Sustainable Data Center"
     excerpt: "Built for fabricating aluminum and steel parts."
-  - image_path: assets/img/Screenshot 2026-08-31 223921.png
+  - image_path: assets/img/Screenshot 2026-08-31 225315.png
     alt: "Medical Syringe Pump"
     title: "Medical Syringe Pump"
     excerpt: "Automated syringe pump capable of dispensing liquid from one micromilimeter to ten milimeters a minute"
