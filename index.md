@@ -18,7 +18,7 @@ feature_row:
     alt: "Medical Syringe Pump"
     title: "Medical Syringe Pump"
     excerpt: "Automated syringe pump capable of dispensing liquid from one micromilimeter to ten milimeters a minute"
-  - image_path: assets/img/Screenshot 2026-08-31 224516.png
+  - image_path: assets/img/Screenshot 2026-08-31 225214.png
     title: "Susan Gray School Playground"
     excerpt: "An accesible castle design built for all students "
 ---
