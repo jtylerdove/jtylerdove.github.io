@@ -16,11 +16,11 @@ feature_row:
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Screenshot 2026-08-31 223921.png
     alt: "Medical Syringe Pump"
-    title: "DIY Plasma Cutter"
-    excerpt: "A hot plasma stream slices through sheet metal."
-  - image_path: assets/img/Zidex-Thumbnail.jpg
-    title: "Bespoke IDEX 3D Printer"
-    excerpt: "Multimaterial printing. "
+    title: "Medical Syringe Pump"
+    excerpt: "Automated syringe pump capable of dispensing liquid from one micromilimeter to ten milimeters a minute"
+  - image_path: assets/img/Screenshot 2026-08-31 224516.png
+    title: "Susan Gray School Playground"
+    excerpt: "An accesible castle design built for all students "
 ---
 
 {% include feature_row %}
