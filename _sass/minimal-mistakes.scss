@@ -39,7 +39,14 @@
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
 
-.feature__item h2,
-.feature__item p {
+.feature__item .archive__item-body {
+  text-align: center;
+}
+
+.feature__item .archive__item-title {
+  text-align: center;
+}
+
+.feature__item .archive__item-excerpt {
   text-align: center;
 }
