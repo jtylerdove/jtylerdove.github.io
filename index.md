@@ -23,4 +23,4 @@ feature_row:
     excerpt: "An accesible castle design built for all students "
 ---
 
-{% include feature_row type="center" %}
+{% include feature_row %}
