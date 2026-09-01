@@ -11,7 +11,7 @@ header:
 excerpt: "Driven by a commitment to design with innovation and sustainability, grounded by a background in structural engineering, that enhances outcomes and communities. I am excited to contribute my technical knowledge and design ideology to projects that combine functionality with curiosity."
 feature_row:
   - image_path: assets/img/Render_1_1508x1043.png
-    alt: "Harmony: a Sustainable Data Center"
+    alt: "Harmony: Data Center"
     title: "Harmony: a Sustainable Data Center"
     excerpt: "Built for fabricating aluminum and steel parts."
   - image_path: assets/img/Screenshot 2026-08-31 225315.png
