@@ -15,6 +15,9 @@ gallery:
     image_path: assets/img/Cyber-Scooter-3.jpg
     alt: "placeholder image 3"
 ---
+
+My team was tasked with designing a syringe system capable of both automated medication dispensing and manual user control. Beyond functionality, the project emphasized minimizing footprint while developing a thoughtful and creative design solution. I led the physical design of the system and track while my teammates developed the wiring and control systems. Each group was given a "team name" that was to be incorporated into our design. Our team, the Widget Wizards, received the competition’s creativity award for details such as the wizard-themed engravings on top of the box, as well as the “WW” and wand-inspired forms that functionally served as ventilation features, but doubled as creative elements. My favorite detail was integrating an LED light into the wand that lit up green  when the syringe was in forward motion and red when it was being retracted.
+
 ## Final Project Supplies
 
 | Part | Quantity | Link |
@@ -36,6 +39,6 @@ gallery:
 | RGB Common Cathode LED | 1 | [Product Link](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
 
 
-Up until recently I rode a Gotrax E-Scooter to work every day. The scooter retailed for $300, but it quickly paid for itself after I was able to forgo gas and a parking spot at work. However, after about a year and a half of driving the scooter daily the battery started to lose charge quickly and there were a couple other mechanical issues that forced me to stop riding the scooter. Instead of purchasing a new scooter, I decided to go the DIY route to build a one-off scooter that fits my needs.
+
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
