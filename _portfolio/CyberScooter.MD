@@ -1,12 +1,12 @@
 ---
 title: "Medical Syringe Pump"
-excerpt: "This custom electric vehicle can reach speeds of up 30 MPH and has a range of over 50 miles!"
+excerpt: "Medical Syringe Capable of dispensing liquid from one micromillimeter to ten millimeters of liquid per minute"
 header:
   image: assets/img/Screenshot 2026-08-31 225315.png
   teaser: assets/img/Screenshot 2026-08-31 225315.png
 gallery:
-  - url: /assets/img/Cyber-Scooter-1.jpg
-    image_path: assets/img/Cyber-Scooter-1.jpg
+  - url: assets/img/Screenshot 2026-08-31 225315.png
+    image_path: assets/img/Screenshot 2026-08-31 225315.png
     alt: "placeholder image 1"
   - url: /assets/img/Cyber-Scooter-2.jpg
     image_path: assets/img/Cyber-Scooter-2.jpg
