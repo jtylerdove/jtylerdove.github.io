@@ -26,7 +26,7 @@ gallery:
 | LM8UU Linear Bearing — 8 mm Diameter Rod | 2 | [Product Link](https://www.amazon.com/gp/product/B087WPGQ8T/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) |
 | 2040 Aluminum Extrusion — 1' Length | 1 | [Product Link](YOUR-LINK-HERE) |
 | NEMA 17 Stepper Motor | 1 | [Product Link](https://www.amazon.com/gp/product/B07LF898KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) |
-| MEAN WELL RQ-65D AC-DC Power Supply — Quad Output | 1 | [https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) |
+| MEAN WELL RQ-65D AC-DC Power Supply — Quad Output | 1 | [Product Link](https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) |
 | Arduino Uno | 1 | [Product Link](https://www.amazon.com/dp/B007R9TUJE/ref=cm_sw_em_r_mt_dp_TY8JGK0CJD1JEJM4BNNJ) |
 | A4988 Stepper Driver | 1 | [Product Link](https://www.amazon.com/dp/B01FFGAKK8/ref=cm_sw_em_r_mt_dp_V0YKTYKDWMR8WHTKA53T?_encoding=UTF8&psc=1) |
 | Small Breadboard | 1 | [Product Link](https://www.amazon.com/dp/B082VYXDF1/ref=cm_sw_em_r_mt_dp_N6Q28CAGPAYCKCSJKDDC?_encoding=UTF8&psc=1) |
