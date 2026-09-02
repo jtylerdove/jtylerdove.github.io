@@ -33,7 +33,7 @@ gallery:
 | Panel Mount Latching Push Button — On/Off | 1 | [Product Link](https://www.amazon.com/dp/B07XTBL1NP?smid=A2NNH5C5IP9N3O&linkCode=sl1&tag=drd0cf-20&linkId=43b42a7cb2a088ebd85d65cb9da46725&language=en_US&ref_=as_li_ss_tl&th=1) |
 | Panel Mount Momentary Push Button — Bonus Only | 1 | [Product Link](https://www.amazon.com/dp/B07BD1MS18?_encoding=UTF8&ref_=cm_sw_r_cp_ud_dp_2TQBTAV0C4S8AFJD47ZB&th=1) |
 | Limit Switch | 1 | [Product Link](https://www.amazon.com/gp/product/B07X142VGC) |
-| RGB Common Cathode LED | Supplied by group | [Product Link](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
+| RGB Common Cathode LED | 1 | [Product Link](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
 
 
 Up until recently I rode a Gotrax E-Scooter to work every day. The scooter retailed for $300, but it quickly paid for itself after I was able to forgo gas and a parking spot at work. However, after about a year and a half of driving the scooter daily the battery started to lose charge quickly and there were a couple other mechanical issues that forced me to stop riding the scooter. Instead of purchasing a new scooter, I decided to go the DIY route to build a one-off scooter that fits my needs.
