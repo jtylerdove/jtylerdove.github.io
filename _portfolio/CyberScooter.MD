@@ -15,6 +15,26 @@ gallery:
     image_path: assets/img/Cyber-Scooter-3.jpg
     alt: "placeholder image 3"
 ---
+## Final Project Supplies
+
+| Part | Quantity | Link |
+|:---|:---:|:---:|
+| 250 mm Lead Screw — 2 mm Pitch, 2 mm Lead | 1 | [Product Link](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) |
+| 250 mm Lead Screw — 2 mm Pitch, 8 mm Lead | 1 | [Product Link](amazon.com/gp/product/B0B8RKN89V?ie=UTF8&th=1&linkCode=sl1&tag=drd0cf-20&linkId=bb4eefbbfff880704d7cd0784b1af8c0&language=en_US&ref_=as_li_ss_tl) |
+| 1/4" × 8 mm Flexible Coupling | 1 | [Product Link](YOUR-LINK-HERE) |
+| 200 mm Linear Rod — 8 mm Diameter | 2 | [Product Link](https://www.amazon.com/dp/B07MPGWJMS/ref=cm_sw_em_r_mt_dp_X5AQS0ES7JH8JG83AAZ3?th=1) |
+| LM8UU Linear Bearing — 8 mm Diameter Rod | 2 | [Product Link](https://www.amazon.com/gp/product/B087WPGQ8T/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) |
+| 2040 Aluminum Extrusion — 1' Length | 1 | [Product Link](YOUR-LINK-HERE) |
+| NEMA 17 Stepper Motor | 1 | [Product Link](https://www.amazon.com/gp/product/B07LF898KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) |
+| MEAN WELL RQ-65D AC-DC Power Supply — Quad Output | 1 | [https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) |
+| Arduino Uno | 1 | [Product Link](https://www.amazon.com/dp/B007R9TUJE/ref=cm_sw_em_r_mt_dp_TY8JGK0CJD1JEJM4BNNJ) |
+| A4988 Stepper Driver | 1 | [Product Link](https://www.amazon.com/dp/B01FFGAKK8/ref=cm_sw_em_r_mt_dp_V0YKTYKDWMR8WHTKA53T?_encoding=UTF8&psc=1) |
+| Small Breadboard | 1 | [Product Link](https://www.amazon.com/dp/B082VYXDF1/ref=cm_sw_em_r_mt_dp_N6Q28CAGPAYCKCSJKDDC?_encoding=UTF8&psc=1) |
+| Panel Mount Latching Push Button — On/Off | 1 | [Product Link](https://www.amazon.com/dp/B07XTBL1NP?smid=A2NNH5C5IP9N3O&linkCode=sl1&tag=drd0cf-20&linkId=43b42a7cb2a088ebd85d65cb9da46725&language=en_US&ref_=as_li_ss_tl&th=1) |
+| Panel Mount Momentary Push Button — Bonus Only | 1 | [Product Link](https://www.amazon.com/dp/B07BD1MS18?_encoding=UTF8&ref_=cm_sw_r_cp_ud_dp_2TQBTAV0C4S8AFJD47ZB&th=1) |
+| Limit Switch | 1 | [Product Link](https://www.amazon.com/gp/product/B07X142VGC) |
+| RGB Common Cathode LED | Supplied by group | [Product Link](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
+
 
 Up until recently I rode a Gotrax E-Scooter to work every day. The scooter retailed for $300, but it quickly paid for itself after I was able to forgo gas and a parking spot at work. However, after about a year and a half of driving the scooter daily the battery started to lose charge quickly and there were a couple other mechanical issues that forced me to stop riding the scooter. Instead of purchasing a new scooter, I decided to go the DIY route to build a one-off scooter that fits my needs.
 
