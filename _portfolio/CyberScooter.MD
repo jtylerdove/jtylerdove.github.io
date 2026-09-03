@@ -38,6 +38,16 @@ My team was tasked with designing a syringe system capable of both automated med
 | Limit Switch | 1 | [Product Link](https://www.amazon.com/gp/product/B07X142VGC) |
 | RGB Common Cathode LED | 1 | [Product Link](https://www.amazon.com/dp/B0194Y6MW2/ref=cm_sw_em_r_mt_dp_FW3CFQT7ZGFQ2R04N6G3?_encoding=UTF8&psc=1) |
 
+| Part Name | Quantity | Link |
+|:---|:---:|:---:|
+| Linear Actuator Syringe Carriage | 1 | [Model Link](YOUR_LINK_HERE) |
+| Front of Box | 1 | [Model Link](YOUR_LINK_HERE) |
+| Top of Box | 1 | [Model Link](YOUR_LINK_HERE) |
+| Bare Bones Enclosure | 1 | [Model Link](YOUR_LINK_HERE) |
+| Arduino Holder | 1 | [Model Link](YOUR_LINK_HERE) |
+| In-Support Syringe Wings Holder | 1 | [Model Link](YOUR_LINK_HERE) |
+| In-Support End of Syringe | 1 | [Model Link](YOUR_LINK_HERE) |
+| Attachment for Limit Switch | 1 | [Model Link](YOUR_LINK_HERE) |
 
 
 
