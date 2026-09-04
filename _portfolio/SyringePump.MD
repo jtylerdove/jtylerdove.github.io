@@ -49,6 +49,6 @@ My team was tasked with designing a syringe system capable of both automated med
 | In-Support End of Syringe | 1 | [Model Link](YOUR_LINK_HERE) |
 | Attachment for Limit Switch | 1 | [Model Link](YOUR_LINK_HERE) |
 
-[View Code](assets/code/syringe_pump.html)
+[View Code](/assets/code/syringe_pump.html)
 
 {% include gallery caption="This is a sample gallery to go along with this case study." %}
