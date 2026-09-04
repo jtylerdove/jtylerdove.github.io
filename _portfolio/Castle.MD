@@ -1,6 +1,6 @@
 ---
-title: "Large Format 3D Printer"
-excerpt: "A 1 kg/hr pellet extruder and 1 cubic meter build envelope for printing furniture."
+title: "Susan Gray Playground Accessible Playground"
+excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
 header:
   image: /assets/img/LF3DP-Banner-2.jpg
   teaser: /assets/img/Large-Format-3D-Printer-Thumbnail.png
