@@ -24,10 +24,10 @@ My team was tasked with designing a syringe system capable of both automated med
 |:---|:---:|:---:|
 | 250 mm Lead Screw — 2 mm Pitch, 2 mm Lead | 1 | [Product Link](https://www.amazon.com/dp/B07R1H5ZMV/ref=cm_sw_em_r_mt_dp_0YZ13D4HQBGW2Z86PBV1?_encoding=UTF8&psc=1) |
 | 250 mm Lead Screw — 2 mm Pitch, 8 mm Lead | 1 | [Product Link](amazon.com/gp/product/B0B8RKN89V?ie=UTF8&th=1&linkCode=sl1&tag=drd0cf-20&linkId=bb4eefbbfff880704d7cd0784b1af8c0&language=en_US&ref_=as_li_ss_tl) |
-| 1/4" × 8 mm Flexible Coupling | 1 | [Product Link](YOUR-LINK-HERE) |
+| 1/4" × 8 mm Flexible Coupling | 1 | [Product Link](https://www.amazon.com/1-4-x-8mm-flexible-coupling/s?k=1%2F4+x+8mm+flexible+coupling) |
 | 200 mm Linear Rod — 8 mm Diameter | 2 | [Product Link](https://www.amazon.com/dp/B07MPGWJMS/ref=cm_sw_em_r_mt_dp_X5AQS0ES7JH8JG83AAZ3?th=1) |
 | LM8UU Linear Bearing — 8 mm Diameter Rod | 2 | [Product Link](https://www.amazon.com/gp/product/B087WPGQ8T/ref=ppx_yo_dt_b_asin_image_o00_s00?ie=UTF8&psc=1) |
-| 2040 Aluminum Extrusion — 1' Length | 1 | [Product Link](YOUR-LINK-HERE) |
+| 2040 Aluminum Extrusion — 1' Length | 1 | [Product Link](https://us.misumi-ec.com/vona2/mech/M1500000000/M1501000000/M1501010000/?CategorySpec=00000042730%3A%3Amig00000001423218&gad_source=1&gad_campaignid=362492313&gbraid=0AAAAADtMMx_f0PEkwytyahoNuOqB_liPZ&gclid=Cj0KCQjw2OnUBhC2ARIsACKyfaEj4kStaelltOhplZjBWM9z_E6sW0vRVTtFESNjYUoPvn1z1IsHo-gaAn-FEALw_wcB) |
 | NEMA 17 Stepper Motor | 1 | [Product Link](https://www.amazon.com/gp/product/B07LF898KN/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1) |
 | MEAN WELL RQ-65D AC-DC Power Supply — Quad Output | 1 | [Product Link](https://www.amazon.com/dp/B005T9HGLI/ref=cm_sw_em_r_mt_dp_A8CZ056TM52EJGZTGZGR?_encoding=UTF8&psc=1) |
 | Arduino Uno | 1 | [Product Link](https://www.amazon.com/dp/B007R9TUJE/ref=cm_sw_em_r_mt_dp_TY8JGK0CJD1JEJM4BNNJ) |
