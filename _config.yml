@@ -103,7 +103,7 @@ author:
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
-      url: "https://github.com/DrD-Flo"
+      url: "/assets/pdf/Tyler Dove-Resume.pdf"
 
 
 # Site Footer
@@ -111,7 +111,7 @@ footer:
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
-      url: "https://github.com/DrD-Flo"
+      url: "/assets/pdf/Tyler Dove-Resume.pdf"
 
 
 # Reading Files
