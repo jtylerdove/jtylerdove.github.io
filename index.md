@@ -13,11 +13,11 @@ feature_row:
   - image_path: assets/img/Render_1_1508x1043.png
     alt: "Harmony: Data Center"
     title: "Harmony: Data Center"
-    excerpt: "Built for fabricating aluminum and steel parts."
+    excerpt: "Blending Technology and Nature"
   - image_path: assets/img/Screenshot 2026-08-31 225315.png
     alt: "Medical Syringe Pump"
     title: "Medical Syringe Pump"
-    excerpt: "Automated syringe pump capable of dispensing liquid from one micromilimeter to ten milimeters a minute"
+    excerpt: "Automated Syringe Pump"
   - image_path: assets/img/Render_2_1508x1043.png
     alt: "Susan Gray Playground"
     title: "Susan Gray Playground"
