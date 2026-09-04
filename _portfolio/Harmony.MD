@@ -1,5 +1,5 @@
 ---
-title: "Harmony - Building a Sustainable Future"
+title: "Harmony"
 excerpt: "A new look datacenter that aims to blend the natural world with technology"
 header:
   image: /assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
