@@ -1,6 +1,6 @@
 ---
 title: "Syringe Pump"
-excerpt: "Medical Syringe Capable of dispensing liquid from one micromillimeter to ten millimeters of liquid per minute"
+excerpt: "Medical Syringe controlling the movement and flow of fluid through both automated and manual operation "
 header:
   image: assets/img/Screenshot 2026-08-31 225315.png
   teaser: assets/img/Screenshot 2026-08-31 225315.png
