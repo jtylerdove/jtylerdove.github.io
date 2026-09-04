@@ -56,7 +56,7 @@ The overhead tower members establish a recognizable identity. Repeated vertical 
 
 Small interventions, such as the climbing wall, sound tubes, flags, and game wall, then provide opportunities for interaction without disrupting the simplicity of the underlying system.
 
-**The project ultimately explores how architectural constraints can become design generators.** The requirements for accessibility, constructability, sensory engagement, and imaginative play initially limited the range of possible solutions, but those limitations became the foundation for the final design. Rather than designing a playground and making it accessible afterward, *Constrained Design* uses accessibility and constraint to determine the architecture from the beginning.
+**The project ultimately explores how architectural constraints can become design generators.** The requirements for accessibility, constructability, sensory engagement, and imaginative play initially limited the range of possible solutions, but those limitations became the foundation for the final design. Rather than designing a playground and making it accessible afterward, *Gray's Castle* uses accessibility and constraint to determine the architecture from the beginning.
 
 The result is a playground that operates simultaneously as **infrastructure, architecture, and an instrument for play**, a place where the structure itself becomes the experience.
 
