@@ -10,9 +10,6 @@ gallery:
    
 ---
 
-
-# Harmony
-
 **120,000 SF Data Center | 2026 ASCE Sustainable Solutions Competition**  
 **South Regional Runner-Up**
 
