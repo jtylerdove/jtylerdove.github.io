@@ -1,5 +1,5 @@
 ---
-title: "Susan Gray Playground Accessible Playground"
+title: "Gray's Castle"
 excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
 header:
   image: /assets/img/New Castle Render 8.png
