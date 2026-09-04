@@ -100,13 +100,11 @@ author:
   avatar           : "assets/img/Screenshot_20231215-115539 (2).png"
   bio              : "Third year Civil Engineering student with a passion for projects at the cross-roads of architectural and engineering design "
   location         : "Nashville, TN"
+  location         : "Boulder, CO"
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
       url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
 
 
 # Site Footer
@@ -115,9 +113,6 @@ footer:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
       url: "https://github.com/DrD-Flo"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://www.instagram.com/dr.dflo"
 
 
 # Reading Files
