@@ -2,12 +2,12 @@
 title: "Susan Gray Playground Accessible Playground"
 excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
 header:
-  image: /assets/img/Screenshot 2026-08-31 224516.png
+  image: /assets/img/New Castle Render 8.png
   teaser: /assets/img/Screenshot 2026-08-31 224516.png
 gallery:
-  - image_path: assets/img/Slide-3.png
-  - image_path: assets/img/Slide-2.png
-  - image_path: assets/img/Slide-4.png
+  - image_path: /assets/img/New Castle Render 9.png
+  - image_path: /assets/img/New Castle Render 6.png
+  - image_path: /assets/img/Screenshot 2026-08-31 224516.png
    
 ---
 
