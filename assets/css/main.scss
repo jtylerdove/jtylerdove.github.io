@@ -12,3 +12,37 @@ $caption-font-family: Arial, Helvetica, sans-serif;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
+
+/* Center project titles and descriptions */
+.archive__item {
+  text-align: center;
+}
+
+/* Center the project images */
+.archive__item-teaser {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Give the project cards more breathing room */
+.grid__item {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 50px;
+}
+
+/* Make the project grid fill more of the page */
+.entries-grid {
+  margin-left: -30px;
+  margin-right: -30px;
+}
+
+/* Center project titles */
+.archive__item-title {
+  text-align: center;
+}
+
+/* Center project descriptions */
+.archive__item-excerpt {
+  text-align: center;
+}
