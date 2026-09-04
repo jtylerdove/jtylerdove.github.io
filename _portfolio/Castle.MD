@@ -20,15 +20,15 @@ The Susan Gray School’s one-to-one peer model, which pairs students with and w
 
 The project was intentionally centered around a limited material and construction vocabulary. Standard dimensional lumber, simple connections, and readily available materials form the majority of the structure. This constraint helped establish a consistent architectural language while also keeping the playground realistic to construct.
 
-The resulting framework resembles a **small-scale architectural system rather than a collection of independent playground elements**. Repeated vertical members define the perimeter, while curved overhead members create a continuous canopy and visually connect the different areas of the playground. The repetition creates a sense of enclosure without completely closing the structure off, allowing children to move between spaces while maintaining visual connections with peers and supervisors.
+The resulting framework resembles a **small-scale architectural system rather than a collection of independent playground elements**. Repeated vertical members define the perimeter, while overhead members create a continuous canopy and visually connect the different areas of the playground. The repetition creates a sense of enclosure without completely closing the structure off, allowing children to move between spaces while maintaining visual connections with peers and supervisors.
 
-The design also uses the idea of the **castle as an architectural narrative**. Towers, elevated platforms, arched openings, flags, and defensive-looking walls transform what could otherwise be a straightforward accessibility exercise into an environment that encourages imagination. The structure is intentionally ambiguous: it can become a castle, a fort, a maze, a lookout, or anything else a child imagines.
+The design also uses the **castle as an architectural narrative**. Towers, elevated platforms, arched openings, flags, and defensive-looking walls transform what could otherwise be a straightforward accessibility exercise into an environment that encourages imagination. The structure is intentionally ambiguous: it can become a castle, a fort, a maze, a lookout, or anything else a child imagines.
 
 ## Accessibility as a Generator
 
 Accessibility was not treated as a single ramp or accessible entrance. Instead, circulation became one of the primary generators of the design.
 
-A large sloped entry provides wheelchair-accessible access directly into the elevated portions of the playground, allowing students using mobility devices to participate in the same spaces as their peers rather than being routed around the primary play structure. The ramp becomes more than a circulation element, it becomes a significant architectural component that enters the building and becomes part of the experience of play.
+A gentle and encompassing sloped entry provides wheelchair-accessible access directly into the elevated portions of the playground, allowing students using mobility devices to participate in the same spaces as their peers rather than being routed around the primary play structure. The ramp becomes more than a circulation element, it becomes a significant architectural component that enters the building and becomes part of the experience of play.
 
 Openings, platforms, and multiple circulation paths create opportunities for children to move through the structure at different speeds and in different ways. Some routes are direct and accessible, while others introduce climbing, crawling, or more physically demanding movement. **The objective was not to make every experience identical, but to make meaningful participation possible for every student.**
 
@@ -36,7 +36,7 @@ Openings, platforms, and multiple circulation paths create opportunities for chi
 
 While physical accessibility drove much of the circulation strategy, the project also considered **sensory engagement** as an equally important component of play.
 
-Elements such as the monkey bars and climbing features introduce tactile and physical stimulation, while smaller interventions create opportunities for more focused interaction. A PVC sound-tube installation allows students to experiment with sound and communication, while a 3D-printed tic-tac-toe wall introduces a simple game that can be played directly on the architecture.
+Elements such as the monkey bars and climbing features introduce tactile and physical stimulation, while smaller interventions create opportunities for more focused interaction. A PVC sound-tube installation allows students to experiment with sound and communication, while 3D-printed tic-tac-toe boards introduce a simple game that can be played directly on the architecture.
 
 The playground therefore operates at several scales of interaction. A child can engage with the structure through full-body movement, tactile exploration, sound, social interaction, or imaginative play. These experiences overlap rather than existing as isolated pieces of equipment.
 
@@ -52,7 +52,7 @@ These features are intentionally simple. Rather than relying on increasingly com
 
 One of the central lessons of the project was that complexity does not necessarily require complicated construction. The overall structure relies on a relatively straightforward system of repeated dimensional lumber, but variations in height, openings, circulation, and interactive components produce a wide range of experiences.
 
-The curved overhead members establish a recognizable identity while simultaneously providing shade and visual continuity. Repeated vertical boards create a strong sense of enclosure while allowing light and visibility through the structure. Arched openings punctuate the walls and provide moments of transition between spaces.
+The overhead tower members establish a recognizable identity. Repeated vertical boards create a strong sense of enclosure while allowing light and visibility through the structure. Slit openings punctuate the walls and provide moments of transition between spaces.
 
 Small interventions, such as the climbing wall, sound tubes, flags, and game wall, then provide opportunities for interaction without disrupting the simplicity of the underlying system.
 
