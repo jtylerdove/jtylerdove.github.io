@@ -1,5 +1,5 @@
 ---
-title: "Medical Syringe Pump"
+title: "Syringe Pump"
 excerpt: "Medical Syringe Capable of dispensing liquid from one micromillimeter to ten millimeters of liquid per minute"
 header:
   image: assets/img/Screenshot 2026-08-31 225315.png
