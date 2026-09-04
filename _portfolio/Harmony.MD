@@ -1,11 +1,11 @@
 ---
-title: "Susan Gray Playground Accessible Playground"
-excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
+title: "Harmony - Building a Sustainable Future"
+excerpt: "A new look datacenter that aims to blend the natural world with technology"
 header:
   image: /assets/img/New Castle Render 8.png
-  teaser: /assets/img/Screenshot 2026-08-31 224516.png
+  teaser: assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
 gallery:
-  - image_path: /assets/img/New Castle Render 9.png
+  - image_path: assets/img/Screenshot 2026-09-03 225517.png
   - image_path: /assets/img/Screenshot 2026-08-31 224516.png
   - image_path: /assets/img/New Castle Render 6.png
    
