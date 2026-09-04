@@ -6,8 +6,8 @@ header:
   teaser: /assets/img/Screenshot 2026-08-31 224516.png
 gallery:
   - image_path: /assets/img/New Castle Render 9.png
-  - image_path: /assets/img/New Castle Render 6.png
   - image_path: /assets/img/Screenshot 2026-08-31 224516.png
+  - image_path: /assets/img/New Castle Render 6.png
    
 ---
 
