@@ -28,7 +28,7 @@ The design also uses the idea of the **castle as an architectural narrative**. T
 
 Accessibility was not treated as a single ramp or accessible entrance. Instead, circulation became one of the primary generators of the design.
 
-A large sloped entry provides wheelchair-accessible access directly into the elevated portions of the playground, allowing students using mobility devices to participate in the same spaces as their peers rather than being routed around the primary play structure. The ramp becomes more than a circulation element—it becomes a significant architectural component that enters the building and becomes part of the experience of play.
+A large sloped entry provides wheelchair-accessible access directly into the elevated portions of the playground, allowing students using mobility devices to participate in the same spaces as their peers rather than being routed around the primary play structure. The ramp becomes more than a circulation element, it becomes a significant architectural component that enters the building and becomes part of the experience of play.
 
 Openings, platforms, and multiple circulation paths create opportunities for children to move through the structure at different speeds and in different ways. Some routes are direct and accessible, while others introduce climbing, crawling, or more physically demanding movement. **The objective was not to make every experience identical, but to make meaningful participation possible for every student.**
 
@@ -54,10 +54,10 @@ One of the central lessons of the project was that complexity does not necessari
 
 The curved overhead members establish a recognizable identity while simultaneously providing shade and visual continuity. Repeated vertical boards create a strong sense of enclosure while allowing light and visibility through the structure. Arched openings punctuate the walls and provide moments of transition between spaces.
 
-Small interventions—such as the climbing wall, sound tubes, flags, and game wall—then provide opportunities for interaction without disrupting the simplicity of the underlying system.
+Small interventions, such as the climbing wall, sound tubes, flags, and game wall, then provide opportunities for interaction without disrupting the simplicity of the underlying system.
 
 **The project ultimately explores how architectural constraints can become design generators.** The requirements for accessibility, constructability, sensory engagement, and imaginative play initially limited the range of possible solutions, but those limitations became the foundation for the final design. Rather than designing a playground and making it accessible afterward, *Constrained Design* uses accessibility and constraint to determine the architecture from the beginning.
 
-The result is a playground that operates simultaneously as **infrastructure, architecture, and an instrument for play**—a place where the structure itself becomes the experience.
+The result is a playground that operates simultaneously as **infrastructure, architecture, and an instrument for play**, a place where the structure itself becomes the experience.
 
 {% include gallery caption="" %}
