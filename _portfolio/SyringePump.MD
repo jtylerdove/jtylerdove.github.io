@@ -40,13 +40,14 @@ My team was tasked with designing a syringe system capable of both automated med
 
 | Part Name | Quantity | Link |
 |:---|:---:|:---:|
-| Linear Actuator Syringe Carriage | 1 | [Model Link](YOUR_LINK_HERE) |
-| Front of Box | 1 | [Model Link](YOUR_LINK_HERE) |
-| Top of Box | 1 | [Model Link](YOUR_LINK_HERE) |
-| Bare Bones Enclosure | 1 | [Model Link](YOUR_LINK_HERE) |
-| Arduino Holder | 1 | [Model Link](YOUR_LINK_HERE) |
-| In-Support Syringe Wings Holder | 1 | [Model Link](YOUR_LINK_HERE) |
-| In-Support End of Syringe | 1 | [Model Link](YOUR_LINK_HERE) |
-| Attachment for Limit Switch | 1 | [Model Link](YOUR_LINK_HERE) |
+| Linear Actuator Syringe Carriage | 1 | [STL File](assets/stl/Carriage-Linear Actuator-Syringe.stl) |
+| Front of Box | 1 | [STL File](/assets/stl/Front_Wall.stl) |
+| Top of Box | 1 | [STL File](/assets/stl/Box Top.stl) |
+| Bare Bones Enclosure | 1 | [STL File](/assets/stl/Bare Bones Enclosure.stl) |
+| Arduino Holder | 1 | [STL File](/assets/stl/Breadboard Holder.stl) |
+| In-Support Syringe Wings Holder | 1 | [STL File](/assets/stl/In-Support_Syringe Wings Holder.stl) |
+| In-Support | 2 | [STL File](/assets/stl/In-Support.stl) |
+| Attachment for Limit Switch | 1 | [STL File](/assets/stl/attachment for limit switch.stl) |
+| Motor Mounting Plate | 1 | [STL File](/assets/stl/Mounting Plate Motor.stl) |
 
 [View Code](/assets/code/syringe_pump.html)
