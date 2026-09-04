@@ -50,5 +50,3 @@ My team was tasked with designing a syringe system capable of both automated med
 | Attachment for Limit Switch | 1 | [Model Link](YOUR_LINK_HERE) |
 
 [View Code](/assets/code/syringe_pump.html)
-
-{% include gallery caption="" %}
