@@ -2,12 +2,12 @@
 title: "Harmony - Building a Sustainable Future"
 excerpt: "A new look datacenter that aims to blend the natural world with technology"
 header:
-  image: assets/img/Picture7.png
-  teaser: assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
+  image: /assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
+  teaser: /assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
 gallery:
-  - image_path: assets/img/Screenshot 2026-09-03 225517.png
+  - image_path: /assets/img/Screenshot 2026-09-03 225517.png
   - image_path: /assets/img/Screenshot 2026-08-31 224516.png
-  - image_path: /assets/img/New Castle Render 6.png
+  - image_path: assets/img/Screenshot 2026-09-03 230215.png
    
 ---
 
