@@ -21,7 +21,7 @@ feature_row:
   - image_path: assets/img/Render_2_1508x1043.png
     alt: "Susan Gray Playground"
     title: "Susan Gray Playground"
-    excerpt: "An accesible castle design built for all students "
+    excerpt: "A Playground For All Abilities"
 ---
 
 {% include feature_row %}
