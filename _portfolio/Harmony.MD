@@ -6,7 +6,6 @@ header:
   teaser: /assets/img/ChatGPT Image Aug 30, 2026, 11_14_16 PM.png
 gallery:
   - image_path: /assets/img/Screenshot 2026-09-03 225517.png
-  - image_path: /assets/img/Screenshot 2026-08-31 224516.png
   - image_path: assets/img/Screenshot 2026-09-03 230215.png
    
 ---
@@ -89,4 +88,4 @@ The project asks whether the future of data center design can move beyond simply
 
 Harmony is therefore less about hiding the data center and more about changing the way it belongs to its site—creating a future in which technology and nature can exist not only side by side, but in balance.
 
-{% include gallery caption="Large Format 3D Printer Gallery" %}
+{% include gallery caption="" %}
