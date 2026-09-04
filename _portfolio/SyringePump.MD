@@ -50,7 +50,7 @@ My team was tasked with designing a syringe system capable of both automated med
 | Attachment for Limit Switch | 1 | [STL File](/assets/stl/attachment for limit switch.stl) |
 | Motor Mounting Plate | 1 | [STL File](/assets/stl/Mounting Plate Motor.stl) |
 
-[View Code](/assets/code/syringe_pump.html)
+[View Arduino Code](/assets/code/syringe_pump.html)
 
 ## 3D Model
 
