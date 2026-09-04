@@ -51,4 +51,4 @@ My team was tasked with designing a syringe system capable of both automated med
 
 [View Code](/assets/code/syringe_pump.html)
 
-{% include gallery caption="This is a sample gallery to go along with this case study." %}
+{% include gallery caption="" %}
