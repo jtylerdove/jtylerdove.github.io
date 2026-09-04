@@ -51,3 +51,15 @@ My team was tasked with designing a syringe system capable of both automated med
 | Motor Mounting Plate | 1 | [STL File](/assets/stl/Mounting Plate Motor.stl) |
 
 [View Code](/assets/code/syringe_pump.html)
+
+## 3D Model
+
+<iframe
+  src="<iframe src="https://vanderbilt643.autodesk360.com/shares/public/SH90d2dQT28d5b602811f53de683dfbffbea?mode=embed" width="640" height="480" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"  frameborder="0"></iframe>"
+  width="100%"
+  height="600"
+  allowfullscreen="true"
+  webkitallowfullscreen="true"
+  mozallowfullscreen="true"
+  frameborder="0">
+</iframe>
