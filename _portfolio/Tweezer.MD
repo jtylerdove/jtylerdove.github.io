@@ -93,3 +93,4 @@ The final pliers demonstrate how material selection can become a primary design 
 What began as a simple challenge to pick up a resistor became an exploration of how **geometry, material behavior, and manufacturing constraints can work together to create mechanical movement**. The final design does not rely on a complex mechanism. Instead, it uses two materials, carefully controlled geometry, and a simple mechanical interface to create a tool that is compact, intuitive, and purpose-built for manipulating small objects.
 
 
+{% include gallery caption="" %}
