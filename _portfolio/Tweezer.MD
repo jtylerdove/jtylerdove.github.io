@@ -72,6 +72,7 @@ The final geometry was developed around the required movement of the jaws and th
 - **Rear jaw fillet:** 2 mm
 - **TPU infill:** 15% to 25%
 - **TPU perimeter:** 4 layers
+- **Print Thickness:** 10 mm
 
 The 2 mm clearance between the jaws provides room for the two rigid components to compress the TPU spring without colliding with one another. The 50 mm jaw length provides enough reach to manipulate through-hole resistors while maintaining a compact overall form.
 
