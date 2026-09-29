@@ -2,18 +2,15 @@
 title: "Multi-Material Tweezers"
 excerpt: "TPU + PLA 3D printed tweezers"
 header:
-  image: assets/img/Screenshot 2026-08-31 225315.png
-  teaser: assets/img/Screenshot 2026-08-31 225315.png
+  image: assets/img/Tweezer Render One.png
+  teaser: assets/img/Tweezer Render One.png
 gallery:
-  - url: assets/img/Screenshot 2026-08-31 225315.png
-    image_path: assets/img/Screenshot 2026-08-31 225315.png
+  - url: assets/img/Tweezer Render Two.png
+    image_path: assets/img/Tweezer Render One.png
     alt: "placeholder image 1"
-  - url: /assets/img/Cyber-Scooter-2.jpg
-    image_path: assets/img/Cyber-Scooter-2.jpg
+  - url: assets/img/Tweezer Render Three.png
+    image_path: assets/img/Tweezer Render Three.png
     alt: "placeholder image 2"
-  - url: /assets/img/Cyber-Scooter-3.jpg
-    image_path: assets/img/Cyber-Scooter-3.jpg
-    alt: "placeholder image 3"
 ---
 
 # Multi-Material Pliers
