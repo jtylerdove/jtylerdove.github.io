@@ -65,6 +65,7 @@ The final geometry was developed around the required movement of the jaws and th
 - **PLA jaw length:** 50 mm
 - **Jaw orientation:** 120° from the dovetail horizontal
 - **Jaw clearance to corner:** 2 mm
+- **Jaw capacity:** 10 cm maximum opening
 - **Resistor cavity depth:** 0.75 mm
 - **Resistor cavity length:** 11.75 mm
 - **Cavity position:** 1 mm from jaw tip
