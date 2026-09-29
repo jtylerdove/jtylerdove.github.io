@@ -5,12 +5,9 @@ header:
   image: assets/img/Tweezer Render One.png
   teaser: assets/img/Tweezer Render One.png
 gallery:
-  - url: assets/img/Tweezer Render Two.png
-    image_path: assets/img/Tweezer Render One.png
-    alt: "placeholder image 1"
-  - url: assets/img/Tweezer Render Three.png
-    image_path: assets/img/Tweezer Render Three.png
-    alt: "placeholder image 2"
+  gallery:
+  - image_path: assets/img/Tweezer Render Two.png
+  - image_path: assets/img/Tweezer Render Three.png
 ---
 
 # Multi-Material Pliers
