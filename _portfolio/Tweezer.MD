@@ -5,10 +5,10 @@ header:
   image: assets/img/Tweezer Render One.png
   teaser: assets/img/Tweezer Render One.png
 gallery:
-  - image_path: assets/img/Tweezer Render Two.png
-  - image_path: assets/img/Tweezer Render Three.png
-  - image_path: assets/img/drawing_1_matched_1362x987.png
-  - image_path: assets/img/drawing_2_matched_1362x987.png
+  - image_path: /assets/img/Tweezer Render Two.png
+  - image_path: /assets/img/Tweezer Render Three.png
+  - image_path: /assets/img/drawing_1_matched_1362x987.png
+  - image_path: /assets/img/drawing_2_matched_1362x987.png
 
 
 ---
@@ -105,4 +105,4 @@ What began as a simple challenge to pick up a resistor became an exploration of 
 </div>
 
 
-{% include gallery caption="" %}
+{% include gallery layout="half" caption="" %}
