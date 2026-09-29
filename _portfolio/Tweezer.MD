@@ -7,6 +7,9 @@ header:
 gallery:
   - image_path: assets/img/Tweezer Render Two.png
   - image_path: assets/img/Tweezer Render Three.png
+  - image_path: assets/img/Tweezer Render Three.png
+  - image_path: assets/img/Tweezer Render Three.png
+
 
 ---
 
