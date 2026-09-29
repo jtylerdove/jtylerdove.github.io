@@ -7,8 +7,8 @@ header:
 gallery:
   - image_path: assets/img/Tweezer Render Two.png
   - image_path: assets/img/Tweezer Render Three.png
-  - image_path: assets/img/Tweezer Render Three.png
-  - image_path: assets/img/Tweezer Render Three.png
+  - image_path: assets/img/drawing_1_matched_1362x987.png
+  - image_path: assets/img/drawing_2_matched_1362x987.png
 
 
 ---
