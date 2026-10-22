@@ -2,8 +2,8 @@
 title: "Harmony"
 excerpt: "A new look datacenter that aims to blend the natural world with technology"
 header:
-  image: assets/img/Screenshot 2026-10-20 104934.png
-  teaser: assets/img/Screenshot 2026-10-20 104934.png
+  image: assets/img/Walking Into Quad Render.png
+  teaser: assets/img/Walking Into Quad Render.png
 gallery:
   - image_path: /assets/img/Screenshot 2026-09-03 225517.png
   - image_path: assets/img/Screenshot 2026-09-03 230215.png
