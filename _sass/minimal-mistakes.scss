@@ -50,3 +50,39 @@
 .feature__item .archive__item-excerpt {
   text-align: center;
 }
+
+
+/* Portfolio hero slideshow */
+.portfolio-hero-slideshow {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.portfolio-hero-slideshow__image {
+  position: absolute;
+  inset: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.portfolio-hero-slideshow__image:first-child {
+  position: relative;
+  height: auto;
+  opacity: 1;
+}
+
+.portfolio-hero-slideshow__image.is-active {
+  opacity: 1;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-hero-slideshow__image {
+    transition: none;
+  }
+}
