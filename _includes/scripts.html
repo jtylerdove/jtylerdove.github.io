@@ -18,6 +18,10 @@
   {%- endcase -%}
 {% endif %}
 
+{% if page.header.slideshow %}
+  <script src="{{ '/assets/js/portfolio-hero-slideshow.js' | relative_url }}" defer></script>
+{% endif %}
+
 {% include analytics.html %}
 {% include /comments-providers/scripts.html %}
 
