@@ -9,8 +9,8 @@ title: "Let's Talk"
 I am pursuing an undergraduate degree in civil engineering, with a focus on structural engineering, and plan to pursue an architecture degree at the post-graduate program. The engineering and architecture track has given me a unique understanding of the technical and design aspects of the built environment, and I hope to follow in the footsteps of others who have worked on both sides of the engineering-architecture fence like I.M. Pei.
 
 * Vanderbilt University - Spring 2028
-  * BS Civil Engineering
-  * Minors in Digital Fabrication and Innovation & Design Strategy
+  * Bachelor of Science in Civil Engineering
+  * Double Minoring in Digital Fabrication and Innovation & Design Strategy
   * 3.9 GPA
 * Boulder Highschool
 
