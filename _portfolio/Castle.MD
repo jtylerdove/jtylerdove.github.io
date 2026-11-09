@@ -2,7 +2,14 @@
 title: "Gray's Castle"
 excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
 header:
-  image: /assets/img/New Castle Render 8.png
+  image: /assets/img/Castle New Render One.jpg
+  slideshow:
+    - /assets/img/Castle New Render One.jpg
+    - /assets/img/Castle New Render Two.jpg
+    - /assets/img/Castle New Render Three.jpg
+    - /assets/img/Castle New Render Four.jpg
+    - /assets/img/Castle New Render Five.jpg
+    - /assets/img/Castle New Render Six.jpg
   teaser: /assets/img/Screenshot 2026-08-31 224516.png
 gallery:
   - image_path: /assets/img/New Castle Render 9.png
