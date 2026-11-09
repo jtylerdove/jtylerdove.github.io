@@ -8,7 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Driven by a commitment to innovative and sustainable design, grounded in a background in structural engineering, I strive to create solutions that enhance both outcomes and communities. I am excited to contribute my technical knowledge and design philosophy to projects that combine functionality with curiosity."
+excerpt: "Driven by curiosity, passionate about innovative design, and grounded in a holistic background of the built environment."
 feature_row:
   - image_path: assets/img/Zoomed out Front View_Harmony.jpg
     alt: "Harmony: Data Center"
