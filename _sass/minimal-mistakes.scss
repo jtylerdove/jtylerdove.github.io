@@ -136,3 +136,18 @@
     transition: none;
   }
 }
+
+/* Homepage portfolio teasers: show each complete image at its natural aspect ratio */
+.feature__item .archive__item-teaser {
+  max-height: none;
+  height: auto;
+  overflow: visible;
+}
+
+.feature__item .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
