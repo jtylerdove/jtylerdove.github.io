@@ -117,6 +117,9 @@ footer:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/pdf/Tyler Dove-Resume.pdf"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-file"
+      url: "/assets/pdf/Tyler Dove-Portfolio.pdf"
 
 
 # Reading Files
