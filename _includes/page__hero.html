@@ -46,6 +46,17 @@
         {% endfor %}
       {% endif %}
     </div>
+  {% elsif page.header.slideshow %}
+    <div class="portfolio-hero-slideshow" data-interval="5000" aria-label="{{ page.title | escape }} project images">
+      {% for image in page.header.slideshow %}
+        <img
+          src="{{ image | relative_url }}"
+          alt="{{ image_description }}"
+          class="page__hero-image portfolio-hero-slideshow__image{% if forloop.first %} is-active{% endif %}"
+          {% unless forloop.first %}aria-hidden="true"{% endunless %}
+        >
+      {% endfor %}
+    </div>
   {% else %}
     <img src="{{ page.header.image | relative_url }}" alt="{{ image_description }}" class="page__hero-image">
   {% endif %}
