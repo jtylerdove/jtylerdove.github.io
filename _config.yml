@@ -100,6 +100,7 @@ author:
   avatar           : "/assets/img/Headshot.png"
   bio              : "Third year Civil Engineering student with a passion for projects at the cross-roads of architectural and engineering design "
   location         : "Nashville, TN"
+  location         : "Boulder, CO"
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
