@@ -10,7 +10,7 @@ header:
       url: "/portfolio/"
 excerpt: "Driven by a commitment to innovative and sustainable design, grounded in a background in structural engineering, I strive to create solutions that enhance both outcomes and communities. I am excited to contribute my technical knowledge and design philosophy to projects that combine functionality with curiosity."
 feature_row:
-  - image_path: assets/img/Render_1_1508x1043.png
+  - image_path: assets/img/Zoomed out Front View_Harmony.jpg
     alt: "Harmony: Data Center"
     title: "Harmony: Data Center"
     excerpt: "Blending Technology and Nature"
@@ -18,7 +18,7 @@ feature_row:
     alt: "Medical Syringe Pump"
     title: "Medical Syringe Pump"
     excerpt: "Automated Syringe Pump"
-  - image_path: assets/img/Render_2_1508x1043.png
+  - image_path: /assets/img/Castle New Render One.jpg
     alt: "Susan Gray Playground"
     title: "Susan Gray Playground"
     excerpt: "A Playground For All Abilities"
