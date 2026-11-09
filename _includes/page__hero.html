@@ -47,19 +47,23 @@
       {% endif %}
     </div>
   {% elsif page.header.slideshow %}
-    <div class="portfolio-hero-slideshow" data-interval="5000" aria-label="{{ page.title | escape }} project images">
-      {% for image in page.header.slideshow %}
-        <img
-          src="{{ image | relative_url }}"
-          alt="{{ image_description }}"
-          class="page__hero-image portfolio-hero-slideshow__image{% if forloop.first %} is-active{% endif %}"
-          {% unless forloop.first %}aria-hidden="true"{% endunless %}
-        >
-      {% endfor %}
-      <button class="portfolio-hero-slideshow__arrow portfolio-hero-slideshow__arrow--previous" type="button" aria-label="Show previous image">
+    <div
+      class="portfolio-hero-slideshow"
+      data-interval="5000"
+      data-images="{% for image in page.header.slideshow %}{{ image | relative_url }}{% unless forloop.last %}|{% endunless %}{% endfor %}"
+      aria-label="{{ page.title | escape }} project images"
+      style="position: relative; width: 100%;"
+    >
+      <img
+        src="{{ page.header.slideshow | first | relative_url }}"
+        alt="{{ image_description }}"
+        class="page__hero-image portfolio-hero-slideshow__image"
+        style="display: block; width: 100%; height: auto; opacity: 1; transition: opacity 1s ease-in-out;"
+      >
+      <button class="portfolio-hero-slideshow__arrow portfolio-hero-slideshow__arrow--previous" type="button" aria-label="Show previous image" style="position: absolute; top: 50%; left: 1rem; z-index: 3; transform: translateY(-50%);">
         <span aria-hidden="true">&#10094;</span>
       </button>
-      <button class="portfolio-hero-slideshow__arrow portfolio-hero-slideshow__arrow--next" type="button" aria-label="Show next image">
+      <button class="portfolio-hero-slideshow__arrow portfolio-hero-slideshow__arrow--next" type="button" aria-label="Show next image" style="position: absolute; top: 50%; right: 1rem; z-index: 3; transform: translateY(-50%);">
         <span aria-hidden="true">&#10095;</span>
       </button>
     </div>
