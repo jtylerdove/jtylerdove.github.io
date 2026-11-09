@@ -98,9 +98,10 @@ analytics:
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/img/Headshot.png"
-  bio              : "Third year Civil Engineering student with a passion for projects at the cross-roads of architectural and engineering design "
-  location         : "Nashville, TN"
-  location         : "Boulder, CO"
+  bio              : "Third year civil engineering student with plans for a graduate degree in architecture "
+  locations:
+    - "Nashville, TN"
+    - "Boulder, CO"
   links:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
@@ -116,6 +117,9 @@ footer:
     - label: "Resume"
       icon: "fas fa-fw fa-file"
       url: "/assets/pdf/Tyler Dove-Resume.pdf"
+    - label: "Portfolio"
+      icon: "fas fa-fw fa-file"
+      url: "/assets/pdf/Tyler Dove-Portfolio.pdf"
 
 
 # Reading Files

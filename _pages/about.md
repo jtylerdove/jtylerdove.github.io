@@ -1,16 +1,17 @@
 ---
 
-title: "About Tyler Dove"
+title: "Let's Talk"
 
 ---
 
 ## Education
 
-Tyler is pursuing an undergraduate degree in Civil Engineering, with a focus on Structural Engineering, and plans to pursue an Architecture degree at a post-graduate program. His engineering background and professional experience has given him a holistic approach to design and understanding of the built environment. 
+I am pursuing an undergraduate degree in civil engineering, with a focus on structural engineering, and plan to pursue an architecture degree at the post-graduate program. The engineering and architecture track has given me a unique understanding of the technical and design aspects of the built environment, and I hope to follow in the footsteps of others who have worked on both sides of the engineering-architecture fence like I.M. Pei.
 
 * Vanderbilt University - Spring 2028
   * BS Civil Engineering
-  * Minor in Digital Fabrication
+  * Minors in Digital Fabrication and Innovation & Design Strategy
+  * 3.9 GPA
 * Boulder Highschool
 
 ## Technical Skills
@@ -24,4 +25,4 @@ Tyler is pursuing an undergraduate degree in Civil Engineering, with a focus on 
    *   Sketchup
 * Adobe InDesign
 * Bluebeam
-* SLS and SLA 3D Printing
+* SLS, SLA, and FFF 3D Printing
