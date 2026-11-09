@@ -10,7 +10,7 @@ header:
     - /assets/img/Castle New Render Four.jpg
     - /assets/img/Castle New Render Five.jpg
     - /assets/img/Castle New Render Six.jpg
-  teaser: /assets/img/Screenshot 2026-08-31 224516.png
+  teaser: /assets/img/Castle New Render One.jpg
 gallery:
   - image_path: /assets/img/New Castle Render 9.png
   - image_path: /assets/img/Screenshot 2026-08-31 224516.png
