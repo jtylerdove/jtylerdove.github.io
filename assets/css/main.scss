@@ -31,13 +31,18 @@ $caption-font-family: "Bank Gothic", sans-serif;
 }
 
 /* Ensure form controls and other browser-native elements inherit site typography. */
-html,
+/* Apply Bank Gothic to all site text while preserving icon and code fonts. */
 body,
+body *:not(i):not(svg):not(path):not(code):not(pre):not(.fas):not(.far):not(.fab) {
+  font-family: "Bank Gothic", sans-serif !important;
+}
+
+/* Keep form controls consistent with the site typography. */
 button,
 input,
 select,
 textarea {
-  font-family: "Bank Gothic", sans-serif;
+  font-family: "Bank Gothic", sans-serif !important;
 }
 
 .entries-grid {
@@ -65,4 +70,11 @@ textarea {
   max-width: 300px;
   margin-left: auto;
   margin-right: auto;
+}
+
+
+/* Give the homepage hero banner a little more vertical space */
+.page__hero--overlay {
+  padding-top: 5.3125em;
+  padding-bottom: 5.3125em;
 }

@@ -18,6 +18,26 @@
 <link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
 <noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
 
+<style>
+  @font-face {
+    font-family: "Bank Gothic";
+    src: url("/assets/fonts/bankgothic-lt-bt-light-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Bank Gothic";
+    src: url("/assets/fonts/bankgothic-md-bt-medium-webfont.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+  }
+  html, body, body *:not(i):not(svg):not(path):not(code):not(pre) {
+    font-family: "Bank Gothic", sans-serif !important;
+  }
+</style>
+
 {% if site.head_scripts %}
   {% for script in site.head_scripts %}
     <script src="{{ script | relative_url }}"></script>
