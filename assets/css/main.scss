@@ -73,8 +73,14 @@ textarea {
 }
 
 
-/* Give the homepage hero banner a little more vertical space */
+/* Make the homepage hero fill the viewport below the navigation */
 .page__hero--overlay {
+  min-height: calc(100vh - 60px);
+  min-height: calc(100svh - 60px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
   padding-top: 5.3125em;
   padding-bottom: 5.3125em;
 }
