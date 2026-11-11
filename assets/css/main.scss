@@ -210,3 +210,42 @@ textarea {
     transition: none;
   }
 }
+
+
+/* Homepage hero slideshow: crossfade background images beneath the content */
+.page__hero--overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.page__hero--overlay .home-hero-slideshow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.page__hero--overlay .home-hero-slideshow__slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1.6s ease-in-out;
+}
+
+.page__hero--overlay .home-hero-slideshow__slide.is-active {
+  opacity: 1;
+}
+
+.page__hero--overlay > .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__hero--overlay .home-hero-slideshow__slide {
+    transition: none;
+  }
+}
