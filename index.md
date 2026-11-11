@@ -5,6 +5,11 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: assets/img/NCAR Sketch.png
+  slideshow:
+    - assets/img/NCAR Sketch.png
+    - assets/img/Castle New Render One.jpg
+    - assets/img/Zoomed out Front View_Harmony.jpg
+    - assets/img/Screenshot 2026-08-31 225315.png
   actions:
     - label: "My Projects"
       url: "/portfolio/"
