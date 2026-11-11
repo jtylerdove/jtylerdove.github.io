@@ -8,4 +8,5 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
-excerpt: "Driven by curiosity, passionate about innovative design, and grounded in a holistic background of the built environment."---
+excerpt: "Driven by curiosity, passionate about innovative design, and grounded in a holistic background of the built environment."
+---
