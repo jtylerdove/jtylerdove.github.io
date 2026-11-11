@@ -24,7 +24,7 @@
   {% if page.header.overlay_color or page.header.overlay_image %}
     {% if page.header.slideshow %}
       <div class="home-hero-slideshow" aria-hidden="true"
-        data-interval="10000"
+        data-interval="5000"
         data-images="{% for image in page.header.slideshow %}{{ image | relative_url }}{% unless forloop.last %}|{% endunless %}{% endfor %}">
         <div class="home-hero-slideshow__slide is-active" style="background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ page.header.slideshow | first | relative_url }}');"></div>
         <div class="home-hero-slideshow__slide"></div>
