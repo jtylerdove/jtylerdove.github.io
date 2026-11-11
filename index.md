@@ -8,5 +8,7 @@ header:
   actions:
     - label: "My Projects"
       url: "/portfolio/"
+    - label: "My Portfolio"
+      url: "/assets/pdf/Tyler%20Dove-Portfolio.pdf"
 excerpt: "Driven by curiosity, passionate about innovative design, and grounded in a holistic background of the built environment."
 ---
