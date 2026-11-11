@@ -78,3 +78,40 @@ textarea {
   padding-top: 5.3125em;
   padding-bottom: 5.3125em;
 }
+
+
+/* Portfolio archive: use three wider columns and show complete teaser images */
+@media (min-width: 768px) {
+  .archive .grid__item {
+    width: 31%;
+    margin-left: 3.5%;
+    margin-right: 0;
+  }
+
+  .archive .grid__item:nth-child(4n + 1),
+  .archive .grid__item:nth-child(4n + 2),
+  .archive .grid__item:nth-child(4n + 3),
+  .archive .grid__item:nth-child(4n + 4) {
+    clear: none;
+    margin-left: 3.5%;
+  }
+
+  .archive .grid__item:nth-child(3n + 1) {
+    clear: both;
+    margin-left: 0;
+  }
+}
+
+.archive .grid__item .archive__item-teaser {
+  max-height: none;
+  height: auto;
+  overflow: visible;
+}
+
+.archive .grid__item .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
