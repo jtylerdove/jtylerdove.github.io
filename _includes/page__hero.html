@@ -19,7 +19,7 @@
 {% assign image_description = image_description | markdownify | strip_html | strip_newlines | escape_once %}
 
 <div class="page__hero{% if page.header.overlay_color or page.header.overlay_image %}--overlay{% endif %}"
-  style="{% if page.url == '/' %}height: calc(100vh - 60px); min-height: calc(100vh - 60px); box-sizing: border-box; display: flex; align-items: center; margin-bottom: 0;{% endif %} {% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
+  style="{% if page.url == '/' %}height: calc(100vh - 60px); min-height: calc(100vh - 60px); box-sizing: border-box; display: flex; align-items: center; margin-bottom: 0;{% endif %} {% if page.header.overlay_color %}background-color: {{ page.header.overlay_color | default: 'transparent' }};{% endif %} {% if overlay_img_path and page.header.slideshow == nil %}background-image: {% if overlay_filter %}{{ overlay_filter }}, {% endif %}url('{{ overlay_img_path }}');{% endif %}"
 >
   {% if page.header.overlay_color or page.header.overlay_image %}
     {% if page.header.slideshow %}
@@ -57,29 +57,35 @@
     {% if page.header.slideshow %}
       <script>
         (function () {
-          var hero = document.currentScript.previousElementSibling;
+          var script = document.currentScript;
+          var hero = script && script.closest(".page__hero--overlay");
           var slideshow = hero && hero.querySelector(".home-hero-slideshow");
           if (!slideshow) return;
 
           var slides = slideshow.querySelectorAll(".home-hero-slideshow__slide");
           var paths = (slideshow.getAttribute("data-images") || "").split("|").filter(Boolean);
-          if (slides.length < 2 || paths.length < 2) return;
+          if (slides.length !== 2 || paths.length < 2) return;
 
-          var active = 0;
+          var currentIndex = 0;
+          var activeSlide = 0;
           var interval = parseInt(slideshow.getAttribute("data-interval"), 10) || 10000;
           var filter = "{% if overlay_filter %}{{ overlay_filter }}{% endif %}";
 
           function showNext() {
-            var next = (active + 1) % paths.length;
+            var nextIndex = (currentIndex + 1) % paths.length;
             var preload = new Image();
+
             preload.onload = function () {
-              var target = slides[1 - active % 2];
-              target.style.backgroundImage = (filter ? filter + ", " : "") + "url('" + paths[next] + "')";
-              target.classList.add("is-active");
-              slides[active % 2].classList.remove("is-active");
-              active = next;
+              var nextSlide = 1 - activeSlide;
+              slides[nextSlide].style.backgroundImage =
+                (filter ? filter + ", " : "") + "url('" + paths[nextIndex] + "')";
+              slides[nextSlide].classList.add("is-active");
+              slides[activeSlide].classList.remove("is-active");
+              activeSlide = nextSlide;
+              currentIndex = nextIndex;
             };
-            preload.src = paths[next];
+
+            preload.src = paths[nextIndex];
           }
 
           window.setInterval(function () {
