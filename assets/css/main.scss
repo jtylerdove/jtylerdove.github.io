@@ -298,3 +298,41 @@ body.layout--collection .portfolio-card__image {
     width: 100%;
   }
 }
+
+
+/* Let the portfolio layout use the full viewport width while keeping the author sidebar */
+body.layout--collection #main {
+  width: calc(100% - 3rem);
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.layout--collection #main > .sidebar {
+  float: left;
+}
+
+body.layout--collection #main > .archive {
+  float: right;
+  width: calc(100% - 250px);
+  max-width: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+body.layout--collection .portfolio-card__link,
+body.layout--collection .portfolio-card__image {
+  width: 100%;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  body.layout--collection #main {
+    width: calc(100% - 2rem);
+  }
+
+  body.layout--collection #main > .archive {
+    width: 100%;
+    float: none;
+  }
+}
