@@ -378,3 +378,9 @@ body.layout--single.wide #main > .sidebar {
     width: 100%;
   }
 }
+
+
+/* Indent Resume and Portfolio links beneath the sidebar's Take a look label */
+.author__urls .author__resource-link {
+  padding-left: 0.85rem;
+}
