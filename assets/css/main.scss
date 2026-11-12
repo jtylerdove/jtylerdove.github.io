@@ -381,6 +381,7 @@ body.layout--single.wide #main > .sidebar {
 
 
 /* Indent Resume and Portfolio links beneath the sidebar's Take a look label */
-.author__urls .author__resource-link {
-  padding-left: 0.85rem;
+.author__urls li.author__resource-link {
+  position: relative !important;
+  left: 1.25rem !important;
 }
