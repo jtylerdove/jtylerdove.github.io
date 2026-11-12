@@ -17,7 +17,6 @@
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
-          <li class="masthead__menu-item masthead__downloads-label">Downloads:</li>
           <li class="masthead__menu-item masthead__download-link">
             <a href="{{ '/assets/pdf/Tyler Dove-Portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">
               Portfolio <i class="fas fa-download" aria-hidden="true"></i>
