@@ -17,6 +17,17 @@
               <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
             </li>
           {%- endfor -%}
+          <li class="masthead__menu-item masthead__downloads-label">Downloads:</li>
+          <li class="masthead__menu-item masthead__download-link">
+            <a href="{{ '/assets/pdf/Tyler Dove-Portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">
+              Portfolio <i class="fas fa-download" aria-hidden="true"></i>
+            </a>
+          </li>
+          <li class="masthead__menu-item masthead__download-link">
+            <a href="{{ '/assets/pdf/Tyler Dove-Resume.pdf' | relative_url }}" target="_blank" rel="noopener">
+              Résumé <i class="fas fa-download" aria-hidden="true"></i>
+            </a>
+          </li>
         </ul>
         <button class="greedy-nav__toggle hidden" type="button">
           <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
