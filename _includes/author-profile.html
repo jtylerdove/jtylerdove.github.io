@@ -36,10 +36,10 @@
       {% endif %}
 
       {% if author.links %}
-        <li class="author__section-label"><strong>Take a look:</strong></li>
+        <li class="author__section-label"><strong>Take a copy:</strong></li>
         {% for link in author.links %}
           {% if link.label and link.url %}
-            <li class="author__resource-link"><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="{{ link.icon | default: 'fas fa-link' }}" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
+            <li class="author__resource-link"><a href="{{ link.url }}" rel="nofollow noopener noreferrer me"{% if link.url contains 'http' %} itemprop="sameAs"{% endif %}><i class="fas fa-download" aria-hidden="true"></i><span class="label">{{ link.label }}</span></a></li>
           {% endif %}
         {% endfor %}
       {% endif %}
