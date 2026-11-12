@@ -1,5 +1,7 @@
 ---
 title: "Harmony"
+
+classes: wide
 excerpt: "A new look datacenter that aims to blend the natural world with technology"
 header:
   image: assets/img/Walking Into Quad Render.png
