@@ -418,3 +418,54 @@ body.layout--single.wide #main > .sidebar {
     white-space: normal !important;
   }
 }
+
+
+/* Mobile author sidebar: keep the links inside the sidebar instead of making
+   the link list horizontally scrollable. */
+@media (max-width: 1024px) {
+  .sidebar .h-card,
+  .sidebar .author__urls-wrapper,
+  .sidebar .author__urls {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+
+  .sidebar .author__urls {
+    position: static !important;
+    right: auto !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .sidebar .author__urls li {
+    white-space: normal !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar .author__urls li a {
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar .author__urls-wrapper,
+  .sidebar .author__urls {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .sidebar .author__urls-wrapper::-webkit-scrollbar,
+  .sidebar .author__urls::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+}
