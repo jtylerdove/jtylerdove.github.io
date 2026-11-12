@@ -1,5 +1,7 @@
 ---
 title: "Gray's Castle"
+
+classes: wide
 excerpt: "A castle playground design built to bring students of all physical abilities together in dramatic play"
 header:
   image: /assets/img/Castle New Render One.jpg
