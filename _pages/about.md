@@ -2,6 +2,8 @@
 
 title: "A Little About Me"
 
+classes: wide
+
 ---
 
 ## Education
