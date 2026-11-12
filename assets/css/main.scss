@@ -385,3 +385,11 @@ body.layout--single.wide #main > .sidebar {
   position: relative !important;
   left: 1.25rem !important;
 }
+
+
+/* Prevent horizontal scrolling within the author sidebar only */
+.author__urls-wrapper,
+.author__urls-wrapper .author__urls {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
