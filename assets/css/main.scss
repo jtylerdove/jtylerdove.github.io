@@ -393,3 +393,28 @@ body.layout--single.wide #main > .sidebar {
   max-width: 100%;
   overflow-x: hidden !important;
 }
+
+
+/* Remove the mobile author-link horizontal scrollbar without changing sidebar content */
+@media (max-width: 1024px) {
+  .author__urls-wrapper,
+  .author__urls-wrapper .author__urls {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+    scrollbar-width: none !important;
+  }
+
+  .author__urls-wrapper .author__urls::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  .author__urls li {
+    white-space: normal !important;
+  }
+}
