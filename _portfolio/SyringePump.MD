@@ -1,5 +1,7 @@
 ---
 title: "Syringe Pump"
+
+classes: wide
 excerpt: "Medical Syringe controlling the movement and flow of fluid through both automated and manual operation "
 header:
   image: assets/img/Screenshot 2026-08-31 225315.png
