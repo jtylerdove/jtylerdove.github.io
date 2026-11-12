@@ -11,7 +11,7 @@ header:
     - assets/img/Zoomed out Front View_Harmony.jpg
     - assets/img/Screenshot 2026-08-31 225315.png
   actions:
-    - label: "My Projects"
+    - label: "A deep dive into my projects"
       url: "/portfolio/"
     - label: "My Portfolio"
       url: "/assets/pdf/Tyler%20Dove-Portfolio.pdf"
