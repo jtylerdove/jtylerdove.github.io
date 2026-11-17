@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "Portfolio"
+  - title: "My Projects"
     url: /portfolio/
-  - title: "About"
+  - title: "About Me"
     url: /_pages/about
   # - title: "Sample Posts"
   #   url: /year-archive/

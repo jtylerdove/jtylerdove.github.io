@@ -73,8 +73,399 @@ textarea {
 }
 
 
-/* Give the homepage hero banner a little more vertical space */
+/* Make the homepage hero fill the viewport below the navigation */
 .page__hero--overlay {
+  min-height: calc(100vh - 60px);
+  min-height: calc(100svh - 60px);
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
   padding-top: 5.3125em;
   padding-bottom: 5.3125em;
+}
+
+
+/* Portfolio archive: use three wider columns and show complete teaser images */
+@media (min-width: 768px) {
+  .archive .grid__item {
+    width: 31%;
+    margin-left: 3.5%;
+    margin-right: 0;
+  }
+
+  .archive .grid__item:nth-child(4n + 1),
+  .archive .grid__item:nth-child(4n + 2),
+  .archive .grid__item:nth-child(4n + 3),
+  .archive .grid__item:nth-child(4n + 4) {
+    clear: none;
+    margin-left: 3.5%;
+  }
+
+  .archive .grid__item:nth-child(3n + 1) {
+    clear: both;
+    margin-left: 0;
+  }
+}
+
+.archive .grid__item .archive__item-teaser {
+  max-height: none;
+  height: auto;
+  overflow: visible;
+}
+
+.archive .grid__item .archive__item-teaser img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+
+/* Portfolio archive: one full-width project image per row with hover details */
+.entries-grid {
+  display: block;
+  width: 100%;
+}
+
+.entries-grid .grid__item,
+.archive .entries-grid .grid__item {
+  float: none;
+  clear: both;
+  width: 100%;
+  margin: 0 0 2rem 0;
+}
+
+.portfolio-row,
+.portfolio-card {
+  width: 100%;
+}
+
+.portfolio-card {
+  position: relative;
+  margin: 0;
+}
+
+.portfolio-card__link {
+  position: relative;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.portfolio-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+.portfolio-card__overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  padding: 2rem;
+  background: rgba(0, 0, 0, 0.72);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.25s ease-in-out;
+}
+
+.portfolio-card__link:hover .portfolio-card__overlay,
+.portfolio-card__link:focus .portfolio-card__overlay,
+.portfolio-card__link:focus-visible .portfolio-card__overlay {
+  opacity: 1;
+}
+
+.portfolio-card__title {
+  display: block;
+  color: #fff;
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.portfolio-card__description {
+  display: block;
+  max-width: 850px;
+  color: #fff;
+  font-size: clamp(0.9rem, 1.5vw, 1.2rem);
+  line-height: 1.6;
+}
+
+.portfolio-card__description p {
+  margin: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .portfolio-card__overlay {
+    transition: none;
+  }
+}
+
+
+/* Homepage hero slideshow: crossfade background images beneath the content */
+.page__hero--overlay {
+  position: relative;
+  overflow: hidden;
+}
+
+.page__hero--overlay .home-hero-slideshow {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.page__hero--overlay .home-hero-slideshow__slide {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1.6s ease-in-out;
+}
+
+.page__hero--overlay .home-hero-slideshow__slide.is-active {
+  opacity: 1;
+}
+
+.page__hero--overlay > .wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page__hero--overlay .home-hero-slideshow__slide {
+    transition: none;
+  }
+}
+
+
+/* Portfolio page: retain author sidebar and expand teasers through remaining page width */
+body.layout--collection #main {
+  width: 100%;
+  max-width: 1600px;
+}
+
+body.layout--collection #main > .sidebar {
+  display: block;
+  width: 200px;
+}
+
+body.layout--collection #main > .archive {
+  float: right;
+  width: calc(100% - 250px);
+  max-width: none;
+  margin-right: 0;
+  padding-right: 0;
+  box-sizing: border-box;
+}
+
+body.layout--collection .entries-grid,
+body.layout--collection .entries-grid .grid__item,
+body.layout--collection .portfolio-row,
+body.layout--collection .portfolio-card,
+body.layout--collection .portfolio-card__link {
+  width: 100%;
+  max-width: none;
+}
+
+body.layout--collection .portfolio-card__image {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: none;
+  object-fit: contain;
+}
+
+@media (max-width: 768px) {
+  body.layout--collection #main > .sidebar {
+    width: 100%;
+  }
+
+  body.layout--collection #main > .archive {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* Let the portfolio layout use the full viewport width while keeping the author sidebar */
+body.layout--collection #main {
+  width: calc(100% - 3rem);
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.layout--collection #main > .sidebar {
+  float: left;
+}
+
+body.layout--collection #main > .archive {
+  float: right;
+  width: calc(100% - 250px);
+  max-width: none;
+  margin-right: 0;
+  padding-right: 0;
+}
+
+body.layout--collection .portfolio-card__link,
+body.layout--collection .portfolio-card__image {
+  width: 100%;
+  max-width: none;
+}
+
+@media (max-width: 768px) {
+  body.layout--collection #main {
+    width: calc(100% - 2rem);
+  }
+
+  body.layout--collection #main > .archive {
+    width: 100%;
+    float: none;
+  }
+}
+
+
+/* About page: use the full content area beside the author sidebar */
+body.layout--single.wide #main {
+  width: calc(100% - 3rem);
+  max-width: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body.layout--single.wide #main > .page {
+  float: right;
+  width: calc(100% - 250px);
+  max-width: none;
+  box-sizing: border-box;
+}
+
+body.layout--single.wide #main > .page .page__inner-wrap {
+  width: 100%;
+  max-width: none;
+}
+
+body.layout--single.wide #main > .sidebar {
+  float: left;
+  width: 200px;
+}
+
+@media (max-width: 768px) {
+  body.layout--single.wide #main {
+    width: calc(100% - 2rem);
+  }
+
+  body.layout--single.wide #main > .page {
+    float: none;
+    width: 100%;
+  }
+
+  body.layout--single.wide #main > .sidebar {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+/* Indent Resume and Portfolio links beneath the sidebar's Take a look label */
+.author__urls li.author__resource-link {
+  position: relative !important;
+  left: 1.25rem !important;
+}
+
+
+/* Prevent horizontal scrolling within the author sidebar only */
+.author__urls-wrapper,
+.author__urls-wrapper .author__urls {
+  max-width: 100%;
+  overflow-x: hidden !important;
+}
+
+
+/* Remove the mobile author-link horizontal scrollbar without changing sidebar content */
+@media (max-width: 1024px) {
+  .author__urls-wrapper,
+  .author__urls-wrapper .author__urls {
+    display: block !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: clip !important;
+    overflow-y: visible !important;
+    scrollbar-width: none !important;
+  }
+
+  .author__urls-wrapper .author__urls::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
+
+  .author__urls li {
+    white-space: normal !important;
+  }
+}
+
+
+/* Mobile author sidebar: keep the links inside the sidebar instead of making
+   the link list horizontally scrollable. */
+@media (max-width: 1024px) {
+  .sidebar .h-card,
+  .sidebar .author__urls-wrapper,
+  .sidebar .author__urls {
+    min-width: 0 !important;
+    max-width: 100% !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+    overflow-x: hidden !important;
+  }
+
+  .sidebar .author__urls {
+    position: static !important;
+    right: auto !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: 0 !important;
+    background: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .sidebar .author__urls li {
+    white-space: normal !important;
+    max-width: 100% !important;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar .author__urls li a {
+    max-width: 100% !important;
+    white-space: normal !important;
+    overflow-wrap: anywhere;
+  }
+
+  .sidebar .author__urls-wrapper,
+  .sidebar .author__urls {
+    scrollbar-width: none !important;
+    -ms-overflow-style: none !important;
+  }
+
+  .sidebar .author__urls-wrapper::-webkit-scrollbar,
+  .sidebar .author__urls::-webkit-scrollbar {
+    display: none !important;
+    width: 0 !important;
+    height: 0 !important;
+  }
 }

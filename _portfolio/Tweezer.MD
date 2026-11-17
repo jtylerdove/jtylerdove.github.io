@@ -1,5 +1,7 @@
 ---
 title: "Multi-Material Tweezers"
+
+classes: wide
 excerpt: "TPU + PLA 3D printed tweezers"
 hidden: true       # Hides it from blog loops or feed templates
 nav_exclude: true  # Hides it from main navigation menus (common in themes like Just-the-Docs)
