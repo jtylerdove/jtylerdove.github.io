@@ -715,3 +715,20 @@ body.layout--single.wide #main > .sidebar {
 .masthead #site-nav.site-dropdown-nav > a.site-title .site-subtitle {
   color: #000 !important;
 }
+
+
+/* Muted medium-gray masthead identity and menu controls */
+.masthead #site-nav.site-dropdown-nav > a.site-title,
+.masthead #site-nav.site-dropdown-nav > a.site-title:visited,
+.masthead #site-nav.site-dropdown-nav > a.site-title:hover,
+.masthead #site-nav.site-dropdown-nav > a.site-title:focus,
+.masthead #site-nav.site-dropdown-nav > a.site-title .site-subtitle {
+  color: #666666 !important;
+}
+
+.masthead nav#site-nav.site-dropdown-nav > details.site-menu > summary.site-menu__toggle,
+.masthead nav#site-nav.site-dropdown-nav > details.site-menu > summary.site-menu__toggle .site-menu__toggle-label,
+.masthead nav#site-nav.site-dropdown-nav > details.site-menu > summary.site-menu__toggle i {
+  color: #666666 !important;
+  border-color: #666666 !important;
+}
