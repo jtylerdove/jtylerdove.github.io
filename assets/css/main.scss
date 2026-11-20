@@ -705,3 +705,13 @@ body.layout--single.wide #main > .sidebar {
     font-size: 0.65rem;
   }
 }
+
+
+/* Masthead identity text: use black instead of the theme's blue link color */
+.masthead #site-nav.site-dropdown-nav > a.site-title,
+.masthead #site-nav.site-dropdown-nav > a.site-title:visited,
+.masthead #site-nav.site-dropdown-nav > a.site-title:hover,
+.masthead #site-nav.site-dropdown-nav > a.site-title:focus,
+.masthead #site-nav.site-dropdown-nav > a.site-title .site-subtitle {
+  color: #000 !important;
+}
