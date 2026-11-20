@@ -7,15 +7,15 @@
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
-        <a class="site-title" href="{{ '/' | relative_url }}">
+        <a class="site-title" style="color: #666666 !important; -webkit-text-fill-color: #666666 !important;" href="{{ '/' | relative_url }}">
           {{ site.masthead_title | default: site.title }}
-          {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
+          {% if site.subtitle %}<span class="site-subtitle" style="color: #666666 !important; -webkit-text-fill-color: #666666 !important;">{{ site.subtitle }}</span>{% endif %}
         </a>
 
         <details class="site-menu">
-          <summary class="site-menu__toggle" aria-label="Open navigation menu">
-            <span class="site-menu__toggle-label">Menu</span>
-            <i class="fas fa-bars" aria-hidden="true"></i>
+          <summary class="site-menu__toggle" style="color: #666666 !important; border-color: #666666 !important;" aria-label="Open navigation menu">
+            <span class="site-menu__toggle-label" style="color: #666666 !important; -webkit-text-fill-color: #666666 !important;">Menu</span>
+            <i class="fas fa-bars" style="color: #666666 !important;" aria-hidden="true"></i>
           </summary>
           <ul class="site-menu__dropdown">
             {%- for link in site.data.navigation.main -%}
