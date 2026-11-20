@@ -3,7 +3,7 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
+      <nav id="site-nav" class="site-dropdown-nav" aria-label="Main navigation">
         {% unless logo_path == empty %}
           <a class="site-logo" href="{{ '/' | relative_url }}"><img src="{{ logo_path | relative_url }}" alt="{{ site.masthead_title | default: site.title }}"></a>
         {% endunless %}
@@ -11,28 +11,29 @@
           {{ site.masthead_title | default: site.title }}
           {% if site.subtitle %}<span class="site-subtitle">{{ site.subtitle }}</span>{% endif %}
         </a>
-        <ul class="visible-links">
-          {%- for link in site.data.navigation.main -%}
-            <li class="masthead__menu-item">
-              <a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a>
+
+        <details class="site-menu">
+          <summary class="site-menu__toggle" aria-label="Open navigation menu">
+            <span class="site-menu__toggle-label">Menu</span>
+            <i class="fas fa-bars" aria-hidden="true"></i>
+          </summary>
+          <ul class="site-menu__dropdown">
+            {%- for link in site.data.navigation.main -%}
+              <li><a href="{{ link.url | relative_url }}"{% if link.description %} title="{{ link.description }}"{% endif %}>{{ link.title }}</a></li>
+            {%- endfor -%}
+            <li class="site-menu__divider" aria-hidden="true"></li>
+            <li>
+              <a href="{{ '/assets/pdf/Tyler Dove-Portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">
+                Portfolio <i class="fas fa-download" aria-hidden="true"></i>
+              </a>
             </li>
-          {%- endfor -%}
-          <li class="masthead__menu-item masthead__download-link">
-            <a href="{{ '/assets/pdf/Tyler Dove-Portfolio.pdf' | relative_url }}" target="_blank" rel="noopener">
-              Portfolio <i class="fas fa-download" aria-hidden="true"></i>
-            </a>
-          </li>
-          <li class="masthead__menu-item masthead__download-link">
-            <a href="{{ '/assets/pdf/Tyler Dove-Resume.pdf' | relative_url }}" target="_blank" rel="noopener">
-              Resume <i class="fas fa-download" aria-hidden="true"></i>
-            </a>
-          </li>
-        </ul>
-        <button class="greedy-nav__toggle hidden" type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle menu" }}</span>
-          <div class="navicon"></div>
-        </button>
-        <ul class="hidden-links hidden"></ul>
+            <li>
+              <a href="{{ '/assets/pdf/Tyler Dove-Resume.pdf' | relative_url }}" target="_blank" rel="noopener">
+                Resume <i class="fas fa-download" aria-hidden="true"></i>
+              </a>
+            </li>
+          </ul>
+        </details>
       </nav>
     </div>
   </div>
